@@ -3,18 +3,18 @@
 // <=-------------------------------------------------- Section A --------------------------------------------------=> //
 
 // TASK 1 
-let perimeter = (a, b) => 2 * (a + b);
+const perimeter = (a, b) => 2 * (a + b);
 
 console.log("Section A - Task 1: " + perimeter(2, 3) + '\n');
 
 // TASK 2
-let areaOfaCircle = (r) => Math.PI * (r ** 2);
+const areaOfaCircle = () => Math.PI * (r ** 2);
 
 
 console.log("Section A - Task 2: " + areaOfaCircle(50) + '\n');
 
-// TASK 3
-function maxNumber(a, b) {
+
+const maxNumber = (a, b) =>{
     if (a < b) {
         return b;
     }
@@ -26,6 +26,7 @@ function maxNumber(a, b) {
         return;
     }
 }
+
 
 console.log("Section A - Task 3: " + maxNumber(50, 69) + '\n');
 
