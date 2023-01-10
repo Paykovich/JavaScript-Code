@@ -3,16 +3,13 @@
 // <=-------------------------------------------------- Section A --------------------------------------------------=> //
 
 // TASK 1 
-function perimeter(a, b) {
-    return 2 * (a + b);
-}
+let perimeter = (a, b) => 2 * (a + b);
 
 console.log("Section A - Task 1: " + perimeter(2, 3) + '\n');
 
 // TASK 2
-function areaOfaCircle(r) {
-    return Math.PI * (r ** 2);
-}
+let areaOfaCircle = (r) => Math.PI * (r ** 2);
+
 
 console.log("Section A - Task 2: " + areaOfaCircle(50) + '\n');
 
