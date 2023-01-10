@@ -14,7 +14,7 @@ const areaOfaCircle = () => Math.PI * (r ** 2);
 console.log("Section A - Task 2: " + areaOfaCircle(50) + '\n');
 
 
-const maxNumber = (a, b) =>{
+const maxNumber = (a, b) => {
     if (a < b) {
         return b;
     }
@@ -132,7 +132,7 @@ console.log(arrOfNumber([0, 10, 8, 7, 6, 1, 4, 9]));
 // TASK 3
 function numberAddition(num) {
     console.log("Section D - Task 3: ");
- 
+
     let result = 0;
     for (let i = 0; i < num.length; i++) {
         result += num[i];
@@ -145,7 +145,7 @@ console.log(numberAddition([7, 8, 3, 5, 4, 6]));
 // TASK 4
 function countingTheNumber(array, number) {
     console.log("Section D - Task 4: ");
-    
+
     let iterationNum = 0;
     for (let i = 0; i < array.length; i++) {
         if (array[i] === number) {
