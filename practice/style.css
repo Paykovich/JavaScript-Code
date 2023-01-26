@@ -4,7 +4,7 @@
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  margin-top: 350px;
+  margin-top: 300px;
   margin-left: 300px;
 }
 
@@ -43,7 +43,7 @@
 .btn {
   width: 300px;
   height: 100px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   margin: 5px;
   cursor: pointer;
   background-color: aliceblue;
@@ -60,3 +60,18 @@
 .btn-6 {--color:#E8D460;}
 .btn-7 {--color:#212121;}
 .btn-8 {--color:#441B15;}
+
+
+.halloween{
+  border-radius: 50%;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.halloween img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
